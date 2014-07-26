@@ -1,0 +1,4 @@
+meteorApp
+=========
+
+A meteor app
