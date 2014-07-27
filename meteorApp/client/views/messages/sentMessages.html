@@ -1,0 +1,10 @@
+<template name="sentMessagesTemplate">
+  <h2>My list of sent messages</h2><br>
+  {{#each messages}}
+    <h4>Title: {{ title }}</h4>
+    <p>Body: {{ body }}</p>
+    <p>To: {{recipient}}</p> 
+    <br>
+  {{/each}}
+
+</template>

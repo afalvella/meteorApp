@@ -1,0 +1,9 @@
+<template name="receivedMessagesTemplate">
+  <h2>My list of received messages</h2><br>
+  {{#each messages}}
+    <h4>Title: {{ title }}</h4>
+    <p>Body: {{ body }}</p>
+    <p>By: {{ author }}</p>
+    <br>
+  {{/each}}
+</template>

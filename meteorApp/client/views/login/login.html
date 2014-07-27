@@ -1,0 +1,10 @@
+<template name="loginTemplate">
+  <h2>Please login to continue</h2><br>
+    User: 
+	    <select id='selectUser'>
+	    	<option value="" disabled selected>Select an user</option>	
+		    {{ #each users }}
+			<option value={{name}} > {{name}} </option>
+		    {{ /each }}
+		</select>
+</template>
